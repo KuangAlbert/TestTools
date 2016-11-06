@@ -1,0 +1,6 @@
+#!/bin/sh
+# For DS03 iAP
+ln -sf /dev/i2c-0 /dev/i2c-ipod
+
+# For DS03 tuner
+ln -sf /dev/i2c-1 /dev/i2c-tuner

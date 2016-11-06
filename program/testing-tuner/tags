@@ -1,0 +1,127 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APPL_ACTIVATE	tef701x.h	39;"	d
+APPL_Activate	tef701x.c	/^int APPL_Activate(u16 act)$/;"	f
+APPL_Get_Operation_Status	tef701x.c	/^int APPL_Get_Operation_Status(u16 *status)$/;"	f
+APPL_Identification	tef701x.c	/^int APPL_Identification(u16 *device, u16 *hw_version, u16 *sw_version)$/;"	f
+APPL_Set_GPIO	tef701x.c	/^int APPL_Set_GPIO(u16 pin, u16 module, u16 feature)$/;"	f
+APPL_Set_OperationMode	tef701x.c	/^int APPL_Set_OperationMode(u16 mode)$/;"	f
+ARG1	tef701x.h	/^	u8 ARG1;$/;"	m	struct:__anon1
+ARG10	tef701x.h	/^	u8 ARG10;$/;"	m	struct:__anon1
+ARG11	tef701x.h	/^	u8 ARG11;$/;"	m	struct:__anon1
+ARG12	tef701x.h	/^	u8 ARG12;$/;"	m	struct:__anon1
+ARG2	tef701x.h	/^	u8 ARG2;$/;"	m	struct:__anon1
+ARG3	tef701x.h	/^	u8 ARG3;$/;"	m	struct:__anon1
+ARG4	tef701x.h	/^	u8 ARG4;$/;"	m	struct:__anon1
+ARG5	tef701x.h	/^	u8 ARG5;$/;"	m	struct:__anon1
+ARG6	tef701x.h	/^	u8 ARG6;$/;"	m	struct:__anon1
+ARG7	tef701x.h	/^	u8 ARG7;$/;"	m	struct:__anon1
+ARG8	tef701x.h	/^	u8 ARG8;$/;"	m	struct:__anon1
+ARG9	tef701x.h	/^	u8 ARG9;$/;"	m	struct:__anon1
+AUDIO_Set_Ana_Out	tef701x.c	/^int AUDIO_Set_Ana_Out(u16 signal,u16 mode)$/;"	f
+AUDIO_Set_Dig_IO	tef701x.c	/^int AUDIO_Set_Dig_IO(u16 signal, u16 mode, u16 format, u16 operation, u16 samplerate)$/;"	f
+AUDIO_Set_Input	tef701x.c	/^int AUDIO_Set_Input(u16 source)$/;"	f
+AUDIO_Set_Output_Source	tef701x.c	/^int AUDIO_Set_Output_Source(u16 signal, u16 source)$/;"	f
+AUDIO_Set_WaveGen	tef701x.c	/^int AUDIO_Set_WaveGen(u16 mode, u16 offset, u16 amplitude1, u16 frequency1, u16 amplitude2, u16 frequency2)$/;"	f
+BlockA	tef701x.h	/^	u16 BlockA;$/;"	m	struct:__anon2
+BlockB	tef701x.h	/^	u16 BlockB;$/;"	m	struct:__anon2
+BlockC	tef701x.h	/^	u16 BlockC;$/;"	m	struct:__anon2
+BlockD	tef701x.h	/^	u16 BlockD;$/;"	m	struct:__anon2
+CMD	tef701x.h	/^	u8 CMD;$/;"	m	struct:__anon1
+DEVICE_VERSION	testing-ipod.c	19;"	d	file:
+DEVICE_VERSION_REG	testing-ipod.c	18;"	d	file:
+DecError	tef701x.h	/^	u16 DecError;$/;"	m	struct:__anon2
+FAILURE	tef701x.h	16;"	d
+FM_Get_Quality_Data	tef701x.c	/^int FM_Get_Quality_Data(u16 *status, u16 *level, u16 *usn, u16 *wam, u16 *offset, u16 *bandwidth, u16 *modulation)$/;"	f
+FM_Get_RDS_Data	tef701x.c	/^int FM_Get_RDS_Data(TEF701X_RDS_DATA *data)$/;"	f
+FM_Get_RDS_Status	tef701x.c	/^int FM_Get_RDS_Status(u16 *status)$/;"	f
+FM_Set_Quality_Status	tef701x.c	/^int FM_Set_Quality_Status(u16 mode, u16 interface)$/;"	f
+FM_Set_RDS	tef701x.c	/^int FM_Set_RDS(u16 mode, u16 restart, u16 interface)$/;"	f
+FM_Set_Specials	tef701x.c	/^int FM_Set_Specials(u16 specials)$/;"	f
+FM_TUNE_TO	tef701x.h	30;"	d
+FM_Tune_To	tef701x.c	/^int FM_Tune_To(u16 mode, u16 frequency)$/;"	f
+GET_IDENTIFICATION	tef701x.h	41;"	d
+GET_OPERATION_STATUS	tef701x.h	40;"	d
+GET_QUALITY_DATA	tef701x.h	34;"	d
+GET_RDS_DATA	tef701x.h	36;"	d
+GET_RDS_STATUS	tef701x.h	35;"	d
+Get_Signal_Status	tef701x.c	/^int Get_Signal_Status(u16 *status)$/;"	f
+I2C_MAX_RETRIES	testing-ipod.c	16;"	d	file:
+I2C_SLAVE_ADDR	testing-ipod.c	17;"	d	file:
+I2C_SLAVE_ADDR	testing-tuner.c	18;"	d	file:
+INDEX	tef701x.h	/^	u8 INDEX;$/;"	m	struct:__anon1
+INIT_TRY_TIMES	tef701x.c	7;"	d	file:
+INIT_TRY_TIMES	testing-tuner.c	19;"	d	file:
+Init_RDS_Hardware	testing-tuner.c	/^int Init_RDS_Hardware(void)$/;"	f
+LutByteValues	patch_v101.c	/^static  unsigned char LutByteValues[] =$/;"	v	file:
+LutByteValues	patch_v102.c	/^static  unsigned char LutByteValues[] =$/;"	v	file:
+LutSize_v101	patch_v101.c	/^const size_t LutSize_v101 =  sizeof(LutByteValues);$/;"	v
+LutSize_v102	patch_v102.c	/^const size_t LutSize_v102 =  sizeof(LutByteValues);$/;"	v
+MODULE	tef701x.h	/^	u8 MODULE;$/;"	m	struct:__anon1
+MODULE_AM	tef701x.h	23;"	d
+MODULE_APPL	tef701x.h	25;"	d
+MODULE_AUDIO	tef701x.h	24;"	d
+MODULE_FM	tef701x.h	22;"	d
+PatchByteValues	patch_v101.c	/^static const unsigned char PatchByteValues[] =$/;"	v	file:
+PatchByteValues	patch_v102.c	/^static const unsigned char PatchByteValues[] =$/;"	v	file:
+PatchSize_v101	patch_v101.c	/^const size_t PatchSize_v101 = sizeof(PatchByteValues);$/;"	v
+PatchSize_v102	patch_v102.c	/^const size_t PatchSize_v102 = sizeof(PatchByteValues);$/;"	v
+ReStart_RDS	tef701x.c	/^int ReStart_RDS()$/;"	f
+SET_DIG_IO	tef701x.h	45;"	d
+SET_GPIO	tef701x.h	38;"	d
+SET_INPUT	tef701x.h	42;"	d
+SET_OPERATION_MODE	tef701x.h	37;"	d
+SET_OUTPUT_SOURCE	tef701x.h	43;"	d
+SET_QUALITY_STATUS	tef701x.h	32;"	d
+SET_RDS	tef701x.h	31;"	d
+SET_SPECIALS	tef701x.h	33;"	d
+SET_WAVEGEN	tef701x.h	46;"	d
+SUCCESS	tef701x.h	15;"	d
+Set_Ana_Out	tef701x.h	44;"	d
+Status	tef701x.h	/^	u16 Status;$/;"	m	struct:__anon2
+Stop_RDS	tef701x.c	/^int Stop_RDS()$/;"	f
+TEF701X_COMMAND	tef701x.h	/^} TEF701X_COMMAND;$/;"	t	typeref:struct:__anon1
+TEF701X_RDS_DATA	tef701x.h	/^} TEF701X_RDS_DATA;$/;"	t	typeref:struct:__anon2
+VERSION_EMPTY	tef701x.h	51;"	d
+VERSION_NONE	tef701x.h	48;"	d
+VERSION_V101	tef701x.h	49;"	d
+VERSION_V102	tef701x.h	50;"	d
+_TEF701X_H_	tef701x.h	13;"	d
+fd_i2c	testing-ipod.c	/^static int fd_i2c = -1;$/;"	v	file:
+fd_power	testing-tuner.c	/^static int fd_power = -1;$/;"	v	file:
+fd_reset	testing-ipod.c	/^static int fd_reset = -1;$/;"	v	file:
+firmware_data_control	tef701x.c	/^int firmware_data_control(void)$/;"	f
+firmware_data_control_1	tef701x.c	/^int firmware_data_control_1(void)$/;"	f
+firmware_data_control_2	tef701x.c	/^int firmware_data_control_2(void)$/;"	f
+gl_fd	testing-tuner.c	/^int gl_fd = -1;$/;"	v
+i2c_ipod	testing-ipod.c	/^char *i2c_ipod = "\/dev\/i2c-ipod";$/;"	v
+i2c_obtain	testing-ipod.c	/^static int i2c_obtain(void)$/;"	f	file:
+i2c_obtain	testing-tuner.c	/^static int i2c_obtain(void)$/;"	f	file:
+i2c_read	testing-ipod.c	/^static int i2c_read(char index, char *buf, int len)$/;"	f	file:
+i2c_release	testing-ipod.c	/^static int i2c_release(void)$/;"	f	file:
+i2c_release	testing-tuner.c	/^static int i2c_release(void)$/;"	f	file:
+i2c_tuner	testing-tuner.c	/^char *i2c_tuner = "\/dev\/i2c-3";$/;"	v
+i2c_write	testing-ipod.c	/^static int i2c_write(char index, char *data, int len)$/;"	f	file:
+ipod_ic_reset	testing-ipod.c	/^static int ipod_ic_reset(int value)$/;"	f	file:
+ipod_reset	testing-ipod.c	/^char *ipod_reset = "\/sys\/class\/gpio\/IPOD_RESET\/value";$/;"	v
+load_firmware	tef701x.c	/^int load_firmware(u8 version)$/;"	f
+load_initializtiaon_data	tef701x.c	/^int load_initializtiaon_data(const unsigned char *pLoad_data, int data_size)$/;"	f
+main	testing-ipod.c	/^int main(int argc, char** argv)$/;"	f
+main	testing-tuner.c	/^int main(int argc, char** argv)$/;"	f
+pLutBytes_v101	patch_v101.c	/^const unsigned char * pLutBytes_v101 = &LutByteValues[0];$/;"	v
+pLutBytes_v102	patch_v102.c	/^const unsigned char * pLutBytes_v102 = &LutByteValues[0];$/;"	v
+pPatchBytes_v101	patch_v101.c	/^const unsigned char * pPatchBytes_v101 = &PatchByteValues[0];$/;"	v
+pPatchBytes_v102	patch_v102.c	/^const unsigned char * pPatchBytes_v102 = &PatchByteValues[0];$/;"	v
+read_date_from_tmc	tef701x.c	/^int read_date_from_tmc(char *pbuf, int len)$/;"	f
+send_data_to_tmc	tef701x.c	/^int send_data_to_tmc(char *pbuf, int len)$/;"	f
+sent_reset_command	tef701x.c	/^int sent_reset_command(void)$/;"	f
+start_firmware	tef701x.c	/^int start_firmware(void)$/;"	f
+tef701x_command	tef701x.c	/^int tef701x_command(int cmd_size, u8 *cmd, int reply_size, u8 *reply)$/;"	f
+tuner_power	testing-tuner.c	/^char *tuner_power = "\/sys\/class\/gpio\/TUNER_PWR_EN\/value";$/;"	v
+tuner_power_en	testing-tuner.c	/^static int tuner_power_en(int value)$/;"	f	file:
+u16	tef701x.h	/^typedef unsigned short u16;$/;"	t
+u8	tef701x.h	/^typedef unsigned char u8;$/;"	t

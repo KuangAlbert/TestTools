@@ -1,0 +1,5 @@
+./spi_test/*.o
+./*.o
+./testing-tuner/*o
+./uart_89501_tool/uart_RX/*.o
+./uart_89501_tool/uart_TX/*.o
