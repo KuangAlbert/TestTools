@@ -1,0 +1,12 @@
+&mcspi2 {
+	ti,pindir-d0-out-d1-in = <0>;
+	status = "okay";
+	pinctrl-names = "default";
+
+	mcu_spi {
+		compatible = "mcu_spi";
+		spi-max-frequency = <1500000>;
+		chip_select = <0>;
+		reg = <0>;
+	};
+};
